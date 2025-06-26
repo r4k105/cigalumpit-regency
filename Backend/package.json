@@ -1,0 +1,12 @@
+{
+  "name": "aplikasi-cigalumpit-regency",
+  "version": "1.0.0",
+  "description": "Aplikasi Website, iuran dan bot wa",
+  "license": "ISC",
+  "author": "r4k105",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
