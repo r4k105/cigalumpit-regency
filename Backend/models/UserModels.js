@@ -1,13 +1,14 @@
-import { Sequelize } from "sequelize";
-import db from "../config/Database";
+import { Sequelize,DataTypes } from "sequelize";
+import db from "../config/Database.js";
 
 
-const {DataTypes} = Sequelize;
 
 const User = db.define('users', {
-    name: DataTypes.STRING,
+    ktp: DataTypes.STRING,
+    nama: DataTypes.STRING,
     email: DataTypes.STRING,
-    gender: DataTypes.STRING
+    telepon: DataTypes.STRING,
+    jenis_kelamin: DataTypes.STRING
 },{
     freezeTableName: true
 });

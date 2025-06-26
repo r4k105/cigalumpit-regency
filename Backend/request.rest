@@ -1,0 +1,30 @@
+GET http://localhost:5000
+
+###
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/user/3
+
+###
+POST  http://localhost:5000/user
+Content-Type: application/json
+
+{
+  "ktp": "320785437094545",
+  "nama": "Guestman",
+  "email": "guestman@gmail.com",
+  "telepon": "+628345678945",
+  "jenis_kelamin": "L"
+}
+
+###
+PATCH http://localhost:5000/user/3
+Content-Type: application/json
+{
+  "ktp": "32073464747777",
+  "nama": "Guestmanto",
+  "email": "guestmanto@gmail.com",
+  "telepon": "+62838458778945",
+  "jenis_kelamin": "P"
+}
