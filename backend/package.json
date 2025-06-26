@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Aplikasi cigalumpit regency",
   "main": "index.js",
+<<<<<<< HEAD
   "type": "module",
+=======
+>>>>>>> cda2f0d396321c20663d13d435f8fc2c09a473d6
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/r4k105/cigalumpit-regency/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/r4k105/cigalumpit-regency#readme",
   "dependencies": {
     "cors": "^2.8.5",
@@ -23,4 +27,7 @@
     "mysql2": "^3.14.1",
     "sequelize": "^6.37.7"
   }
+=======
+  "homepage": "https://github.com/r4k105/cigalumpit-regency#readme"
+>>>>>>> cda2f0d396321c20663d13d435f8fc2c09a473d6
 }
