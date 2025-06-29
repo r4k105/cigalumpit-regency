@@ -10,9 +10,4 @@ app.use(express.json());
 app.use(UserRoute);
 
 
-// app.get('/', (req,res) => {
-//     res.send(`Server API ${port} running`)
-// })
-
-
 app.listen(port, ()=> console.log(running));

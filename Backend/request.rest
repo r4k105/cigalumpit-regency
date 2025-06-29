@@ -19,12 +19,16 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:5000/user/3
+PATCH  http://localhost:5000/user/3
 Content-Type: application/json
+
 {
-  "ktp": "32073464747777",
+  "ktp": "3258958954545",
   "nama": "Guestmanto",
   "email": "guestmanto@gmail.com",
-  "telepon": "+62838458778945",
-  "jenis_kelamin": "P"
+  "telepon": "+6283456895475",
+  "jenis_kelamin": "L"
 }
+
+###
+DELETE http://localhost:5000/user/2
